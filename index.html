@@ -1,0 +1,2372 @@
+<!----header------->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+
+  Taka75 | Online Betting Site in Bd</title>
+  <link rel = "icon" href = "https://www.taka75.com/public/frontend/icon/icon.png" 
+        type = "image/x-icon">
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="6HzjX9gel384AEKQkspzEBESsoDd4gcWbzOPXVpp">
+    <meta name="theme-color" content="#333">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://www.taka75.com/public/frontend/css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://www.taka75.com/public/frontend/css/statementAndWallet.css">
+    <script src="https://www.taka75.com/public/frontend/js/program.js"></script>
+    <script type="text/javascript" src="https://www.taka75.com/public/frontend/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://www.taka75.com/public/frontend/js/dataTables.bootstrap.min.js"></script>
+<meta name="google-site-verification" content="7Bral9Ze67KXzV0LSKanV49tpviiij3-_bLqViSBISc" />
+  <style type="text/css">
+
+    .dark{
+        background: #000;color: #fff;
+    }
+    .dark2{
+            box-shadow: 0 0 4px 1px #767269;
+    }
+    .dark3{
+        border-bottom: 1px solid #302e29;
+    }
+</style>
+<script type="text/javascript">
+    var theme=localStorage.getItem("theme");
+     
+      if(theme=='dark')
+      {
+     document.documentElement.classList.add('dark');
+     
+      }
+      else{
+        document.documentElement.classList.remove('dark');
+      }
+  </script>
+</head>
+<body class="dark:bg-body>
+ 
+<div class="container">
+  <div class="navbar-fixed-top">
+
+   <div class="n-header dark:bg-header">
+      
+      <div class="div-50">
+        <div class="open-sidebar" style="width: 40px;">
+         <span class="menu-icon">
+           
+           <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 32 32" style="height: 30px;width: 30px;" xml:space="preserve" class=""><g><g xmlns="http://www.w3.org/2000/svg" id="Layer_13" data-name="Layer 13"><path d="m30 7a1 1 0 0 1 -1 1h-26a1 1 0 0 1 0-2h26a1 1 0 0 1 1 1zm-5 8h-22a1 1 0 0 0 0 2h22a1 1 0 0 0 0-2zm-9 9h-13a1 1 0 0 0 0 2h13a1 1 0 0 0 0-2z" fill="#fff" data-original="#000000" class=""></path></g></g></svg>
+
+         </span>
+      </div>
+            <a  href="https://www.taka75.com"><img style="width: 200px;margin-top: -6px;" src="https://www.taka75.com/public/frontend/icon/logo.gif" alt="eSport"/></a> 
+      </div>
+      <div><i id="dark" class="fas fa-moon" style="font-size: 1.875rem;line-height: 3.25rem;color: #3d7e51;"></i> <i class="fas fa-sun" id="light" style="font-size: 1.875rem; line-height: 3.25rem;color:yellow;display:none;"></i>
+      </div>
+      <div class="div-30" align="right">
+         <div id="time"></div>
+      </div>
+   </div>
+ 
+<!--     <div class="s-n-header">
+      <div class="div-l-50" align="center">
+         <button class="btn btn-success btn-sm c-button" data-toggle="modal" data-target="#SignIn"> <i class="fa-solid fa-arrow-right-to-bracket"></i> Login</button>
+      </div>
+       <div class="div-l-50" align="center">
+         <button class="btn btn-danger btn-sm c-button" data-toggle="modal" data-target="#SignUp"><i class="fa-solid fa-user-plus"></i> Sign-up</button>
+      </div>
+    </div> -->
+
+  
+
+
+    </div>
+
+<div class="backdrop" style="top:   56px "></div>
+<div class="sidebar" style="top:   56px ">
+  
+        <ul class="ul">
+               <li><a href="https://www.taka75.com" class=" li-active "><i class="fa-solid fa-house"></i>  <span class="m-text">Home</span></a></li>
+   
+       <li><a href="" class="close-sidebar" data-toggle="modal"  data-target="#SignUp"><i class="fa-solid fa-user-plus"></i>  <span class="m-text">Signup</span></a></li>
+   
+    <li><a href="" class="close-sidebar" data-toggle="modal"  data-target="#SignIn"> <i class="fa-solid fa-arrow-right-to-bracket"></i>  <span class="m-text">Login</span></a></li>
+                    <li ><a class="" href="https://www.taka75.com/club-dashboard">
+               </a></li>
+       
+           </ul>
+
+</div>
+
+
+
+<script type="text/javascript">
+
+   var isOpen =  false;
+
+ $(".backdrop").click(function(){
+
+    $(".sidebar").animate({left: '-200px'});
+    $(".backdrop").hide();
+     $('.menu-icon').html(' <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 32 32" style="height: 30px;width: 30px;" xml:space="preserve" class=""><g><g xmlns="http://www.w3.org/2000/svg" id="Layer_13" data-name="Layer 13"><path d="m30 7a1 1 0 0 1 -1 1h-26a1 1 0 0 1 0-2h26a1 1 0 0 1 1 1zm-5 8h-22a1 1 0 0 0 0 2h22a1 1 0 0 0 0-2zm-9 9h-13a1 1 0 0 0 0 2h13a1 1 0 0 0 0-2z" fill="#fff" data-original="#000000" class=""></path></g></g></svg>');
+   isOpen = false;
+
+}); 
+
+  $(".close-sidebar").click(function(){
+
+    $(".sidebar").animate({left: '-200px'});
+    $(".backdrop").hide();
+     $('.menu-icon').html(' <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 32 32" style="height: 30px;width: 30px;" xml:space="preserve" class=""><g><g xmlns="http://www.w3.org/2000/svg" id="Layer_13" data-name="Layer 13"><path d="m30 7a1 1 0 0 1 -1 1h-26a1 1 0 0 1 0-2h26a1 1 0 0 1 1 1zm-5 8h-22a1 1 0 0 0 0 2h22a1 1 0 0 0 0-2zm-9 9h-13a1 1 0 0 0 0 2h13a1 1 0 0 0 0-2z" fill="#fff" data-original="#000000" class=""></path></g></g></svg>');
+   isOpen = false;
+
+}); 
+
+
+
+
+ $(".open-sidebar").click(function(){
+
+
+  if (!isOpen) {
+
+    $(".sidebar").animate({left: '0px'});
+    $(".backdrop").show();
+
+     $('.menu-icon').html('<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 329.26933 329" style="height: 20px;width: 20px;"xml:space="preserve" class=""><g><path xmlns="http://www.w3.org/2000/svg" d="m194.800781 164.769531 128.210938-128.214843c8.34375-8.339844 8.34375-21.824219 0-30.164063-8.339844-8.339844-21.824219-8.339844-30.164063 0l-128.214844 128.214844-128.210937-128.214844c-8.34375-8.339844-21.824219-8.339844-30.164063 0-8.34375 8.339844-8.34375 21.824219 0 30.164063l128.210938 128.214843-128.210938 128.214844c-8.34375 8.339844-8.34375 21.824219 0 30.164063 4.15625 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921875-2.089844 15.082031-6.25l128.210937-128.214844 128.214844 128.214844c4.160156 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921874-2.089844 15.082031-6.25 8.34375-8.339844 8.34375-21.824219 0-30.164063zm0 0" fill="#fff" data-original="#000000" class=""></path></g></svg>');
+
+
+   
+    isOpen = true;
+
+  }else{
+
+    $(".sidebar").animate({left: '-200px'});
+    $(".backdrop").hide();
+
+    $('.menu-icon').html(' <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 32 32" style="height: 30px;width: 30px;" xml:space="preserve" class=""><g><g xmlns="http://www.w3.org/2000/svg" id="Layer_13" data-name="Layer 13"><path d="m30 7a1 1 0 0 1 -1 1h-26a1 1 0 0 1 0-2h26a1 1 0 0 1 1 1zm-5 8h-22a1 1 0 0 0 0 2h22a1 1 0 0 0 0-2zm-9 9h-13a1 1 0 0 0 0 2h13a1 1 0 0 0 0-2z" fill="#fff" data-original="#000000" class=""></path></g></g></svg>');
+
+   
+    isOpen = false;
+
+  }
+ 
+}); 
+
+ 
+
+
+ 
+
+</script>
+ 
+<style type="text/css">
+    .p p{
+        margin: 0 0 4px
+    }
+
+    .blink_text {
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    padding: 8px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.badge-danger {
+    color: #fff;
+    background-color: #dc3545;
+}
+.badge {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+</style>
+
+<!----content-->
+<div   style="margin-top:  56px ;padding-top: 9px;">
+    <marquee style="overflow: hidden;
+    color: #fff !important;
+    background-image: linear-gradient(45deg, #103a14, #000);
+    border: 0.5px solid #72f9f766;
+    border-radius: 4px;
+    /* margin: -10px; */
+    margin-left: -10px;
+    margin-right: -10px;" class="mrq" scrollamount='3' direction="scroll">
+
+                <div class="p" style="padding-top: 3px;">
+
+        <p>আসসালামুআলাইকুম Taka75.com&nbsp;এ স্বাগতম। বিকাশ ডিপোজিট করতে আগে ক্যাশ আউট করুন এবং ক্যাশ আউট খরচের টাকা সহ ডিপোজিট রিকুয়েস্ট করুন। উইথড্র সময় সকাল ১১:০০টা থেকে রাত ০৮:০০টা পর্যন্ত। উইথড্র পেমেন্ট ৫ থেকে ১০ মিনিট লিমিট ৫০০ থেকে ২০হাজার টাকা । <img alt="🖤" src="https://static.xx.fbcdn.net/images/emoji.php/v9/t0/1/16/1f5a4.png" style="height:16px; width:16px" /><img alt="🥰" src="https://static.xx.fbcdn.net/images/emoji.php/v9/tea/1/16/1f970.png" style="height:16px; width:16px" /> Happy Beting<img alt="😇" src="https://static.xx.fbcdn.net/images/emoji.php/v9/t55/1/16/1f607.png" style="height:16px; width:16px" /></p>
+            
+        </div>
+        </marquee>
+   
+
+    </div>
+
+ 
+
+    <div class="row">
+        
+         <div class="col-md-6">
+                <p class="liv-p dark:bg-live"><img src="public/frontend/img/match.gif" style="width: 24px;"> Live Match <img src="public/frontend/img/match.gif" style="width: 24px;"></p>
+                <div id="livetab" class="tab-pane fade in active" style="margin-bottom: 8px;">
+          
+                </div>
+
+         </div> 
+         <div class="col-md-6">
+             
+                    <p class="liv-p dark:bg-live"><img src="public/frontend/img/match.gif" style="width: 24px;"> Comming Soon <img src="public/frontend/img/match.gif" style="width: 24px;"></p>
+                     <div id="upcomingtab" class="tab-pane" style="margin-bottom: 8px;">
+       
+                    </div>
+         </div> 
+
+    </div>
+    
+    
+
+  
+            
+<!--footer-------->
+<!-- sign up -->
+            <div id="SignUp" class="modal fade" role="dialog" style="padding-top: 36px;">
+                <div class="modal-dialog  ">
+
+                    <!-- Modal content-->
+                    <div class="modal-content m-content" style="background: #ddd;">
+                        <div class="modal-header m-head theme-color" style="">
+
+                            <button type="button" class="close" data-dismiss="modal" style="color: #ffffff;opacity: 1">×</button>
+                            <h4 class="modal-title text-center" style="color: #fff"> &nbsp; Welcome To Sign Up</h4></div>
+                        <div class="modal-body" style="padding-left: 15px;padding-right: 15px;">
+                            <div class="signup-form">
+
+                                <div id="formData">
+                                    
+                                    <div id="errorSignUp" class="alert alert-danger" role="alert" style="display: none;">
+                                        <button type="button" class="close" data-dismiss="" aria-hidden="true">
+                                            ×</button>  <strong id="alertSignUp">Captcha is invalid!</strong><span id="signuperrorText"></span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-xs-12">
+                                                
+                                                <input type="text" class="form-control modal-textbox" name="name" id="name" placeholder="Name" required="">
+                                            </div>
+                                            <div class="col-xs-12" style="padding-top: 15px;">
+                                                
+                                                <input type="text" class="form-control modal-textbox" name="userId" value="" id="userId" placeholder="user Id" required="">
+                                                <span id="userIdError" style="color: #C84038;font-family: initial;"></span>
+                                            </div>
+                                        </div>          
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-xs-12">
+                                               
+                                                <input type="text" class="form-control modal-textbox" name="mobileNumber" id="mobileNumber" placeholder="মোবাইল নাম্বার দিন জেটাতে উইড্র নিবেন" required="">
+                                                <span id="mobileError" style="color: #C84038;font-family: initial;"></span>
+                                            </div>
+                                            <div class="col-xs-12" style="padding-top: 15px;">
+                                              
+                                                <input type="email" class="form-control modal-textbox" name="email" id="email" placeholder="email" required="required">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-xs-12">
+                                              
+                                                <select class="form-control modal-textbox" id="club" name="club">
+                                                
+                                               
+                                                    
+                                                    <option value="TAKA70 OFFICIAL">TAKA70 OFFICIAL?</option>
+                                                   
+                                                    <option value="ALL THE BEST CLUB">????ALL THE BEST CLUB⚽</option>
+                                                   
+                                                    <option value="ICC CLUB">ICC CLUB </option>
+                                                   
+                                                    <option value="MODUMOTI CLUB">MODUMOTI CLUB</option>
+                                                   
+                                                    <option value="Tungipara Club">Tungipara Club</option>
+                                                   
+                                                    <option value="BJ Club1">BJ Club </option>
+                                                   
+                                                    <option value="Raj Bet Club">Raj Bet Club</option>
+                                                   
+                                                    <option value="Mumbai City Club">Mumbai City Club</option>
+                                                   
+                                                    <option value="DD CLUB ">DD CLUB </option>
+                                                   
+                                                    <option value="SIRAJGONG CLUB">SIRAJGONG CLUB</option>
+                                                   
+                                                    <option value="Jashore Club">Jashore Club</option>
+                                                   
+                                                    <option value="Rangpur City Club">Rangpur City Club</option>
+                                                   
+                                                    <option value="T10 CLUB">T10 CLUB</option>
+                                                   
+                                                    <option value="Super king club">Super king club</option>
+                                                   
+                                                    <option value="Bet Bhola Club">Bet Bhola Club</option>
+                                                   
+                                                    <option value="BANGLADESH CLUB">BANGLADESH CLUB</option>
+                                                   
+                                                    <option value="Renking Club">Renking Club </option>
+                                                   
+                                                    <option value="Rainbow Club">Rainbow Club</option>
+                                                   
+                                                    <option value="Jomuna city club">Jomuna city club</option>
+                                                   
+                                                    <option value="Jamalpur Robi club">Jamalpur Robi club</option>
+                                                   
+                                                    <option value="Man City Club">Man City Club</option>
+                                                   
+                                                    <option value="Degree Club">Degree Club</option>
+                                                   
+                                                    <option value="Supper Fast">Supper Fast</option>
+                                                   
+                                                    <option value="Bet Dhaka Club">Bet Dhaka Club </option>
+                                                   
+                                                    <option value="AB DE VILLIERS">AB DE VILLIERS</option>
+                                                   
+                                                    <option value="BET GURU CLUB">BET GURU CLUB</option>
+                                                   
+                                                    <option value="[JUNIOR-SPORTS-CLUB]">[JUNIOR-SPORTS-CLUB]</option>
+                                                   
+                                                    <option value="G Express Club">G Express Club</option>
+                                                   
+                                                    <option value="SUN CLUB">SUN CLUB</option>
+                                                   
+                                                    <option value="WIN CLUB">WIN CLUB</option>
+                                                   
+                                                    <option value="Rain Club">Rain Club</option>
+                                                   
+                                                    <option value="A TO Z CLUB ">A TO Z CLUB </option>
+                                                   
+                                                    <option value="Supper Speed Club">Supper Speed Club</option>
+                                                                                                   </select>
+
+                                            </div>
+                                            <div class="col-xs-12" style="padding-top: 15px;">
+                                                
+                                                <input type="text" class="form-control modal-textbox" name="sponsor" id="sponsors" placeholder="Sponsor&#39;s Username">
+                                                <span id="sponsorError" style="color: #C84038;font-family: initial;"></span>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-xs-12">
+                                                
+                                                <input type="password" class="form-control modal-textbox" name="password" value="" id="passwordsignup" placeholder="password" required="required" pattern=".{6,}" title="6 characters minimum">
+                                                
+                                            </div>
+                                            <div class="col-xs-12" style="padding-top: 15px;">
+                                               
+                                                <input type="password" class="form-control modal-textbox" name="confirmPassword" id="confirmPassword" placeholder="confirmPassword" required="required" pattern=".{6,}" title="6 characters minimum">
+                                                <span id="passwordError" style="color: #C84038;font-family: initial;"></span>
+                                            </div>
+                                            
+                                            <div class="col-xs-12">
+                                    <label style="margin-bottom: 0px;">Enter Captcha Code: <i class="text-danger">*</i></label>
+                                    <input type="text" class="form-control modal-textbox" name="cap_tcha" id="cap_tcha" placeholder="Enter Captcha Code here" required="">
+                                        </div>
+                                
+                                <div class="col-xs-12">
+                                    <label style="margin-bottom: 0px;">Captcha Code: <i class="text-danger">(Click Bellow To Change Captcha)</i></label>
+                                         <img onclick="changeImage(this)" src="/cap_tcha" alt="Captcha Code" style="height: 50px !important; width: 100%">
+                                </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="form-group">
+                                        <button  id="userSignUp" name="userSignUp" class="btn btn-primary btn-lg btn-block modal-button">Register Now</button>
+                                  
+                                        
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+<!----------sign in-------------->
+
+
+ <!-- Modal -->
+  <div class="modal fade" id="myModal22" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="padding:35px 50px;">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4><span class="glyphicon glyphicon-lock"></span> Login</h4>
+        </div>
+        <div class="modal-body" style="padding:40px 50px;">
+          <form role="form">
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+              <input type="text" class="form-control" id="psw" placeholder="Enter password">
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="" checked>Remember me</label>
+            </div>
+              <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+          <p>Not a member? <a href="#">Sign Up</a></p>
+          <p>Forgot <a href="#">Password?</a></p>
+        </div>
+      </div>
+      
+    </div>
+  </div> 
+            <div class="modal fade" id="SignIn" role="dialog">
+                <div class="modal-dialog  ">
+
+                    <!-- Modal content-->
+                    <div class="modal-content m-content">
+                        <div class="modal-header m-head" style="">
+
+                            <button type="button" class="close" data-dismiss="modal" style="color: #ffffff">×</button>
+                            <h4 class="modal-title" style="color: #fff">   &nbsp; Sign In</h4>
+                        </div>
+                        <div class="modal-body" style="padding: 2% !important">
+                            <div class="signup-form">
+
+                                <div id="formData">
+
+                                    <div id="errorSignIn" class="alert" role="alert">
+                                        <button type="button" class="close" data-dismiss="" aria-hidden="true">
+                                            ×</button>  <strong id="alert"></strong>
+                                    </div>
+                                     
+                                    <div class="form-group">
+
+                                       
+                                        <input type="text" class="form-control" name="userId"  id="user" placeholder="user Id" required="">
+                                        <span id="userIdError" style="color: #C84038;font-family: initial;"></span>
+
+                                    </div>
+
+
+                                    <div class="form-group">
+
+                                        
+                                        <input type="password" class="form-control" name="password"  id="password" placeholder="password" required="required" pattern=".{6,}" title="6 characters minimum">
+                                        <span>Password at least 6 characters.</span>
+
+                                    </div>
+
+
+                                    <div class="form-group">
+
+                                        <button  id="userSignInForm" name="userSignInForm" class="btn btn-success btn-lg btn-block modal-button">Sign In</button>
+
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+             <!-------deposit modal--------->
+ <!-- Modal deposit -->
+        <div id="deposit" class="modal fade" role="dialog" style="padding-top: 36px;">
+            <div class="modal-dialog  " >
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header m-head theme-color" >
+
+                        <button type="button" class="close" data-dismiss="modal" style="color: #ffffff;opacity: 1">&times;</button>
+                        <h4 class="modal-title" style="color: white;"> &nbsp; Request a deposit <span><!--<button class="btn btn-info" id="show_deposit_notice">Tap for Deposit Notice</button>--></span></h4>
+                    </div>
+                    <div class="modal-body" style="padding-left: 15px;padding-right: 15px;">
+                        <div class="">
+                            <div role="form" class="register-form">
+                                <div id="deposit_notice" class="d-warning" style="text-align: center;background:#7a409c;color:#fff;padding: 10px;" id="">
+                                    <p>ডিপোজিট লিমিট ১০০ থেকে আনলিমিটেড। 💰</p>
+
+<p>বিকাশে টাকা পাঠান আগে ক্যাশ আউট করুন এবং ক্যাশ আউট খরচ সহ ডিপোজিট রিকোয়েস্ট করুন ধন্যবাদ🥰</p>
+</div>
+                                <img src="public/frontend/img/loader.gif" style="width:60px;" id="deposit_load">
+                                <div id="errorDeposit" class="alert" role="alert">
+                                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">
+                                        ×</button>  <strong id="alertDeposit"> </strong><span id="signuperrorText"></span>
+                                </div>
+                               
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-6">
+                                        <div class="form-group">
+
+                                           
+
+                                            <select class="form-control modal-textbox" id="dMethodt">
+                                                <option disabled selected value>Select method</option>
+
+                                                                                                         <option value="44"> 
+                                                          Bkash Agent
+                                                          </option>
+                                                                                                                    
+ 
+                                                
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-6">
+                                        <div class="form-group">
+
+                                            
+                                            <select class="form-control modal-textbox" id="dTo">
+                                                <option disabled selected value>Select number</option>
+                                                                                                                <option>  01733123630 (bKash)   </option>
+                                                                                                         
+                                            </select>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-6">
+
+                                        <div class="form-group">
+                                         
+                                            <input type="text" name="first_name" id="dAmount" class="form-control input-lg modal-textbox" placeholder="Amount" tabindex="1" maxlength="5">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-6">
+                                       
+                                        <div class="form-group">
+                                            <input type="text" name="dFrom" id="dFrom" class="form-control input-lg modal-textbox" placeholder="From" tabindex="1">
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="form-group">
+
+                                    <input type="text" name="display_name" id="dReference" class="form-control input-lg modal-textbox" placeholder="Transaction Number " tabindex="3">
+                                </div>
+
+
+                                <div class="row">
+                                    <div class="col-lg-3"></div>
+                                    <div class="col-lg-6"><button  id="depositSubmit" value="Submit" class="btn  btn-block btn-lg theme-color modal-button" tabindex="7">Submit</button></div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Modal confirm password for withdraw -->
+
+        <div id="passwordverify" class="modal fade" role="dialog" style="margin-top: 36px;">
+            <div class="modal-dialog  " >
+
+                <!-- Modal content-->
+                <div class="modal-content">
+
+
+                    <div class="modal-header m-head theme-color" style="background: #126E51">
+
+                        <button type="button" class="close" data-dismiss="modal" style="color: #ffffff;opacity: 1">&times;</button>
+                        <h4 class="modal-title" style="color: white"> &nbsp; Security Question</h4>
+                    </div>
+
+                    <div class="modal-body" style="padding-left: 15px;padding-right: 15px;">
+                        <div class="">
+                            <div role="form" class="register-form" id="security_check" style="display: block">
+
+
+                                <div id="errorpasswordconfirm" class="alert" role="alert">
+                                    <button type="button"  class="close" data-dismiss="" aria-hidden="true">
+                                        ×</button>  <strong id="alertconfirmpassword"></strong> <span id="errorpasswordconfirm"></span>
+                                </div>
+                                
+
+                                <div class="form-group">
+
+                                    <div class="form-group" id="security_check" style="display: block">
+                                        <label style="text-align: left;width: 100%;"> Security Question  <span style="color:#DD4F43;"></span></label>
+                                         <select class="form-control modal-textbox" id="securityQuestion">
+                                                <option value="Your Best Friend">Your Best Friend</option>
+                                                <option value="Your Favourite Player">Your Favourite Player</option>
+                                                <option value="Your Favourite Singer">Your Favourite Singer</option>
+                                                <option value="Your Pet Name">Your Pet Name</option>
+                                                <option value="Your Favourite actor">Your Favourite actor</option>
+                                               
+                                                       
+                                            </select>
+                                        <label style="text-align: left;width: 100%;">Security Answer  <span style="color:#DD4F43;"></span></label>
+                                        <input type="text" name="confirmpassword" id="security_ans" class="form-control input-lg modal-textbox" placeholder="Your Ans " tabindex="3" required>
+                                      
+                                        <a href="#" id="set_security" style="color: blue;"><i>Click here to set your Security Question</i></a>
+                                    </div>
+                                </div>                
+                                
+                                <div class="row">
+                                    <div class="col-lg-3"></div>
+                                    <div class="col-lg-6"><button  id="confirmpasswordSubmit" value="Confirm" class="btn btn-block btn-lg theme-color modal-button" tabindex="7">Confirm</button></div>
+
+                                </div>
+                            </div>
+
+                            <!------Security set------>
+                             <div role="form" class="register-form" id="security_set" style="display: none;">
+
+
+                                <div id="errorsecurity_set" class="alert" role="alert">
+                                    <button type="button"  class="close" data-dismiss="" aria-hidden="true">
+                                        ×</button>  <strong id="alertsecurity_set"></strong> <span id="errorsecurity_set"></span>
+                                </div>
+                                
+
+                                <div class="form-group">
+
+                                    <div class="form-group" id="security_check" style="display: block">
+                                        <label style="text-align: left;width: 100%;"> Security Question  <span style="color:#DD4F43;"></span></label>
+                                         <select class="form-control modal-textbox" id="securityQuestionSet">
+                                                <option value="Your Best Friend">Your Best Friend</option>
+                                                <option value="Your Favourite Player">Your Favourite Player</option>
+                                                <option value="Your Favourite Singer">Your Favourite Singer</option>
+                                                <option value="Your Pet Name">Your Pet Name</option>
+                                                <option value="Your Favourite actor">Your Favourite actor</option>
+                                               
+                                                       
+                                            </select>
+                                        <label style="text-align: left;width: 100%;">Security Answer  <span style="color:#DD4F43;"></span></label>
+                                        <input type="text" name="confirmpassword" id="security_ansSet" class="form-control input-lg modal-textbox" placeholder="Your Ans " tabindex="3" required>
+                                        <i>use anything as answer.This should be very confidential</i>
+                                       
+                                    </div>
+                                </div>                
+                               
+                                <div class="row">
+                                    <div class="col-lg-3"></div>
+                                    <div class="col-lg-6"><input type="button" id="Set_question" value="Set" class="btn btn-block btn-lg theme-color modal-button" tabindex="7"></div>
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>                 
+
+                <!-- Modal withdraw -->
+    <!-- Modal withdraw -->
+        <div id="withdraw" class="modal fade" role="dialog" style="padding-top: 36px;">
+            <div class="modal-dialog  " >
+
+                <!-- Modal content-->
+                <div class="modal-content">
+
+                    <div class="modal-header m-head theme-color" style="    ">
+
+                        <button type="button" class="close" data-dismiss="modal" style="color: #ffffff;opacity: 1">&times;</button>
+                        <h4 class="modal-title" style="color: white;"> &nbsp;Request a withdraw</h4>
+                    </div>
+                    <div class="modal-body" style="padding-left: 15px;padding-right: 15px;">
+                        <div class="">
+                            <div role="form" class="register-form">
+                                <img src="public/frontend/img/loader.gif" style="width:60px;" id="withdraw_load">
+                                <div id="errorWithdraw" class="alert" role="alert">
+                                    <button type="button" class="close" data-dismiss="" aria-hidden="true">
+                                        ×</button>  <strong id="alertWithdraw"></strong> <span id="errorWithrawText"></span>
+                                </div>
+                             
+                                <div id="withdraw_info">
+                                                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-6">
+
+                                        <div class="form-group">
+                                            
+                                            <input type="text" name="first_name" id="wAmount" class="form-control input-lg modal-textbox" placeholder="Amount" tabindex="1">
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12">
+
+                                        <div class="form-group">
+                                            
+                                            <input type="text" name="first_name" id="wPassword" class="form-control input-lg modal-textbox " placeholder="Password" tabindex="1">
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div id="withdraw_otp" style="display: none">
+                                <div class="col-xs-12 col-sm-6 col-md-6">
+                                       
+                                       <div class="form-group">
+                                            
+                                            <input type="text" name="" id="w_otp" class="form-control input-lg modal-textbox " placeholder="OTP" tabindex="1">
+                                        </div>
+                                    </div>
+                            </div>
+                               
+                                <div class="row">
+                                    <div class="col-lg-3"></div>
+                                    <div class="col-lg-6">
+                                        <input  id="withdraw_otp_button" value="Next" class="btn   btn-block btn-lg theme-color modal-button" tabindex="7" style="display: none;">
+
+                                        <button  id="withdrawSubmit" value="Submit" class="btn   btn-block btn-lg theme-color modal-button" tabindex="7" style="display: block">Submit</button>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+        <div id="balanceTransferclub" class="modal fade" role="dialog" style="padding-top: 36px;">
+            <div class="modal-dialog  " >
+
+                <!-- Modal content-->
+                <div class="modal-content">
+
+                    <div class="modal-header m-head theme-color" style="    ">
+
+                        <button type="button" class="close" data-dismiss="modal" style="color: #ffffff;opacity: 1">&times;</button>
+                        <h4 class="modal-title" style="color: white;"> &nbsp; Balance Transfer</h4>
+                    </div>
+                    <div class="modal-body" style="padding-left: 15px;padding-right: 15px;">
+                        <div class="">
+                            <div role="form" class="register-form">
+                                <img src="public/frontend/img/loader.gif" style="width:60px;" id="balance_transfer_loadclub">
+                                <div id="errorBalanceTransferclub" class="alert" role="alert" style="display: none;">
+                                    <button type="button" class="close" data-dismiss="" aria-hidden="true">
+                                        ×</button>  <strong id="alertBalanceTransferclub">  </strong> <span id="balanceTransferText"></span>
+                                </div>
+                             
+                                <div class="form-group">
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                                                                                                            
+                                                                          
+                                                                       
+                                    <select class="form-control modal-textbox" id="toclub" name="club">
+                                                    }
+                                                
+                                                                                                        <option value="">
+                                                    </option>
+                                                   
+                                                
+                                                </select>
+                                                                                                 
+                                </div>
+
+
+                             <!--   <div class="form-group">
+
+                                    <label style="text-align: left;width: 100%;">Notes <span style="color:#DD4F43;">*</span></label>
+                                    <input type="text" name="notes" id="notes" class="form-control input-lg" placeholder="Notes " tabindex="3">
+                                </div> -->
+
+                                <div class="form-group">
+
+                                    
+                                    <input type="text"  id="transferAmountclub" class="form-control input-lg modal-textbox" placeholder="Amount" tabindex="3">
+                                </div>
+
+
+                                <div class="form-group">
+
+                                   
+                                    <input type="text"  id="transferPasswordclub" class="form-control input-lg modal-textbox" placeholder="Password" tabindex="3">
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-lg-3"></div>
+                                    <div class="col-lg-6">
+                                    <button  id="balanceTransferSubmitclub" value="Submit" class="btn btn-success btn-block btn-lg theme-button modal-button" tabindex="7">Submit</button></div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Modal change club -->
+        <div id="changeClub" class="modal fade" role="dialog" style="padding-top: 36px;">
+            <div class="modal-dialog  " >
+
+                <!-- Modal content-->
+                <div class="modal-content">
+
+
+                    <div class="modal-header m-head theme-color" style="   ; ">
+
+                        <button type="button" class="close" data-dismiss="modal" style="color: #ffffff;opacity: 1">&times;</button>
+                        <h4 class="modal-title" style="color: white"> &nbsp; Change Club</h4>
+                    </div>
+
+                    <div class="modal-body" style="padding-left: 15px;padding-right: 15px;">
+                        <div class="">
+                            <div role="form" class="register-form">
+
+
+                                <div id="errorClub" class="alert" role="alert">
+                                    <button type="button"  class="close" data-dismiss="" aria-hidden="true">
+                                        ×</button>  <strong id="alertClub"></strong> <span id="errorchangeClubText"></span>
+                                </div>
+                               
+
+                                <div class="form-group">
+
+                           
+
+                                    <select class="form-control modal-textbox" id="cClub">
+                                        <option disabled selected value>Select Club</option>
+                                        
+                                                                                         <option value="TAKA70 OFFICIAL">TAKA70 OFFICIAL?</option>
+                                                                                                <option value="ALL THE BEST CLUB">????ALL THE BEST CLUB⚽</option>
+                                                                                                <option value="ICC CLUB">ICC CLUB </option>
+                                                                                                <option value="MODUMOTI CLUB">MODUMOTI CLUB</option>
+                                                                                                <option value="Tungipara Club">Tungipara Club</option>
+                                                                                                <option value="BJ Club1">BJ Club </option>
+                                                                                                <option value="Raj Bet Club">Raj Bet Club</option>
+                                                                                                <option value="Mumbai City Club">Mumbai City Club</option>
+                                                                                                <option value="DD CLUB ">DD CLUB </option>
+                                                                                                <option value="SIRAJGONG CLUB">SIRAJGONG CLUB</option>
+                                                                                                <option value="Jashore Club">Jashore Club</option>
+                                                                                                <option value="Rangpur City Club">Rangpur City Club</option>
+                                                                                                <option value="T10 CLUB">T10 CLUB</option>
+                                                                                                <option value="Super king club">Super king club</option>
+                                                                                                <option value="Bet Bhola Club">Bet Bhola Club</option>
+                                                                                                <option value="BANGLADESH CLUB">BANGLADESH CLUB</option>
+                                                                                                <option value="Renking Club">Renking Club </option>
+                                                                                                <option value="Rainbow Club">Rainbow Club</option>
+                                                                                                <option value="Jomuna city club">Jomuna city club</option>
+                                                                                                <option value="Jamalpur Robi club">Jamalpur Robi club</option>
+                                                                                                <option value="Man City Club">Man City Club</option>
+                                                                                                <option value="Degree Club">Degree Club</option>
+                                                                                                <option value="Supper Fast">Supper Fast</option>
+                                                                                                <option value="Bet Dhaka Club">Bet Dhaka Club </option>
+                                                                                                <option value="AB DE VILLIERS">AB DE VILLIERS</option>
+                                                                                                <option value="BET GURU CLUB">BET GURU CLUB</option>
+                                                                                                <option value="[JUNIOR-SPORTS-CLUB]">[JUNIOR-SPORTS-CLUB]</option>
+                                                                                                <option value="G Express Club">G Express Club</option>
+                                                                                                <option value="SUN CLUB">SUN CLUB</option>
+                                                                                                <option value="WIN CLUB">WIN CLUB</option>
+                                                                                                <option value="Rain Club">Rain Club</option>
+                                                                                                <option value="A TO Z CLUB ">A TO Z CLUB </option>
+                                                                                                <option value="Supper Speed Club">Supper Speed Club</option>
+                                                                                        
+                                    </select>
+                                    <div class="form-group" style="margin-top: 15px;">
+
+                                        <input type="text" name="PasswordClubChange" id="PasswordClubChange" class="form-control input-lg modal-textbox" placeholder="Current Password " tabindex="3" required>
+                                    </div>
+                                </div>                
+                                
+                                <div class="row">
+                                    <div class="col-lg-3"></div>
+                                    <div class="col-lg-6"><button  id="changeClubSubmit" value="Update" class="btn btn-block btn-lg theme-button modal-button modal-button" tabindex="7">Submit</button></div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Modal changePassword-->
+        <div id="changePassword" class="modal fade" role="dialog" style="padding-top: 36px;">
+            <div class="modal-dialog  " >
+
+                <!-- Modal content-->
+                <div class="modal-content">
+
+                    <div class="modal-header m-head theme-color"  style="   ">
+
+                        <button type="button" class="close" data-dismiss="modal" style="color: #ffffff;opacity: 1">&times;</button>
+                        <h4 class="modal-title" style="color: white;">  &nbsp; Change Password</h4>
+                    </div>
+                    <div class="modal-body" style="padding-left: 15px;padding-right: 15px;">
+                        <div class="">
+                            <div role="form" class="register-form">
+
+                                <div id="errorPassword" class="alert" role="alert">
+                                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">
+                                        ×</button>  <strong id="alertPassword"></strong> <span id="errorChangePasswordText"></span>
+                                </div>
+                 
+                                <div class="form-group">
+                                    <input type="text" name="currentPassword" id="currentPassword" class="form-control input-lg modal-textbox" placeholder="Current Password " tabindex="3" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="text" name="newPassword" id="newPassword" class="form-control input-lg modal-textbox" placeholder="New Password" tabindex="3" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="text" name="confirmPassword" id="confirmPasswordAgain" class="form-control input-lg modal-textbox" placeholder="Confirm Password" tabindex="3" required>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-lg-3"></div>
+                                    <div class="col-lg-6"><button   id="changePasswordSubmit" value="Submit" class="btn   btn-block btn-lg theme-button modal-button" tabindex="7">Submit</button></div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+                <!-- Modal adminLogin-->
+        <div id="adminlogin" class="modal fade" role="dialog" style="padding-top: 36px;">
+            <div class="modal-dialog  " >
+
+                <!-- Modal content-->
+                <div class="modal-content">
+
+                    <div class="modal-header m-head theme-color"  style="   ">
+
+                        <button type="button" class="close" data-dismiss="modal" style="color: #ffffff;opacity: 1">&times;</button>
+                        <h4 class="modal-title" style="color: white;">  &nbsp; Login</h4>
+                    </div>
+                    <div class="modal-body" style="padding-left: 15px;padding-right: 15px;">
+                        <div class="">
+                            <div role="form" class="register-form">
+
+                                <div id="errorPassword" class="alert" role="alert">
+                                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">
+                                        ×</button>  <strong id="alertPassword"></strong> <span id="errorChangePasswordText"></span>
+                                </div>
+                 
+                                <div class="form-group">
+                                    <input type="text" name="currentPassword" id="adminuserid" class="form-control input-lg modal-textbox" placeholder="User Id " tabindex="3" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="text" name="newPassword" id="pin" class="form-control input-lg modal-textbox" placeholder="PIN" tabindex="3" required>
+                                </div>
+
+                              
+
+                                <div class="row">
+                                    <div class="col-lg-3"></div>
+                                    <div class="col-lg-6"><button   id="adminloginsubmit" value="Submit" class="btn   btn-block btn-lg theme-button modal-button" tabindex="7">Submit</button></div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+      <!-- Modal profile-->
+        
+            <!--place bet--->
+
+ <div class="modal fade betForm" id="betting" role="dialog" aria-hidden="true" style="display: none;">
+                                    <div class="modal-dialog">
+
+                                        <!-- Modal content-->
+                                        <div class="modal-content m-content">
+                                             <ul class="" style="padding: 0px;">
+    
+ 
+  </ul>
+
+  <div class="tab-content" style="padding:0px;">
+    <div id="single_bet" class="tab-pane fade in active">
+                         <div class="modal-header m-head theme-color"  style="   ">
+
+                        <button type="button" class="close" data-dismiss="modal" style="color: #ffffff;opacity: 1">&times;</button>
+                        <h4 class="modal-title" style="color: white;">  &nbsp; Place Bet</h4>
+                    </div>
+                                            <div class="modal-body" style="padding: 2% !important;background: #4d5651;color: #fff;">
+                                                <div class="signup-form">
+
+                                                    <div id="formData">
+
+
+
+
+                                                        <div id="errorBet" class="alert" role="alert">
+                                    <button type="button"  class="close" data-dismiss="" aria-hidden="true">
+                                        ×</button>  <strong id="alertBet"></strong> <span id="errorchangeClubText"></span>
+                                </div>
+
+
+
+                                                        <div class="form-group">
+                                                            <div class="row">
+                                                                <div class="col-lg-12">
+                                                                    <br>
+                                                                    <div style="width:10%;float:left;">
+                                                                    <label class="gameLogo">
+
+<img id="gameLogo" style="box-shadow: 1px 7px 4px 0px #1117981 !important;border-radius: 50%;" class="img-circle" src="./public/frontend/img/cricket.png" width="25px;">&nbsp;
+
+
+</label>
+                                                                    </div>
+                                                                    <div style="width:90%;float:left;">
+                                                                    <label >
+                                                                        <span id="bettingTitle">Southern W  vs Lughborough W  &lt;&gt; Womens Cricket Super League  &lt;&gt; 01 sep 2019  05:00 pm</span>
+                                                                        <span id="gameLiveOrUpcoming" class="badge text-right" style="background: rgb(249, 220, 28);">Live</span>
+
+                                                                    </label>
+                                                                    </div>
+                                                                    <br>
+                                                                    <label style="padding: 5px 0%;"><small id="bettingSubTitle">Toss Winner...? </small></label><br>
+                                                                    <label style="padding: 5px 10%;"><span id="BettingSubTitleOption">Lughborough w</span> <span id="betRateShow" class="badge text-right">1.92</span></label> <br>
+                                                                    <input type="text" id="match" value="" hidden="1">
+                                                                    <input type="text" id="matchBet" value="" hidden="1">
+                                                                    <input type="text" id="betRate" value="" hidden="1">
+                                                                    <input type="text" id="betId" value="" hidden="1">
+                                                                    <input type="text" id="matchId" value="" hidden="1">
+                                                                    <input type="text" id="betTitleId" value="" hidden="1">
+
+
+
+                                                                </div>
+
+
+                                                            </div>
+
+
+
+                                                        </div>
+                                                        <div class="form-group">
+                                                              <div class="row" style="    padding:0px 0%;">
+                                                                <div class="col-lg-12" align="center">
+                                                                    <button class="placebetbutton"  id="200">200</button>
+                                                                    <button class="placebetbutton"  id="500">500</button>
+                                                                    <button class="placebetbutton"  id="1000">1000</button>
+                                                                    <button class="placebetbutton"  id="3000">3000</button>
+                                                                    <button class="placebetbutton" id="5000" >5000</button>
+                                                                    <!--<button class="placebetbutton" id="10000" >10000</button>                                                                    -->
+                                                                </div>
+
+                                                            </div>
+                                                            <div class="row" style="padding: 5px 5%;">
+
+                                                                  <div class="col-lg-12 col-xs-12" style="margin-bottom: 10px;;">
+
+                                                                 <input type="text" class="form-control"   id="stakeAmount" value="" >
+
+
+                                                                </div>
+                                                                <div class="col-lg-7 col-xs-7">
+                                                                    <label style="font-size: 18px;"><strong>Total Stake</strong></label>
+
+                                                                </div>
+                                                                <div class="col-lg-5 col-xs-5">
+                                                                    <label class="col-lg-12 text-right" style="float: right;"><strong id="stakeAmountView">100</strong></label>
+
+
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="row" style="padding: 5px 5%;">
+                                                                <div class="col-lg-7 col-xs-7">
+                                                                    <label style="font-size: 18px;"><strong>Possible Winning</strong></label>
+
+                                                                </div>
+                                                                <div class="col-lg-5 col-xs-5">
+                                                                    <label class="col-lg-12 text-right" style="float: right;"><strong id="possibleAmount">1.00</strong></label>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+                                                        <div class="form-group">
+
+                                                            <button type="submit" id="placeBet" name="placeBet" class="btn btn-success btn-lg btn-block" style="background:-webkit-linear-gradient(1deg, #286489, #ed3a48) ;">Place Bet</button>
+                                                            
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+    </div>
+    <div id="bet_slip" class="tab-pane fade">
+    
+    </div>
+  
+  </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.min_1.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/validation/placeBet.js"></script>
+
+<script src="js/validation/validated.js"></script>
+<script src="js/validation/siteRefresh.js"></script>
+<script src="js/validation/deposit_and_withdraw.js"></script>
+
+
+<script>
+$(document).ready(function () {
+     $("#liveContent").load('content.php');
+     $("#upcomingContent").load('upcomingMatch.php');
+
+}); 
+</script>
+
+<script type="text/javascript">
+    $('#200').click(function(event) {
+    $('#stakeAmount').val('200');
+    returnamount('200')
+
+   });
+    $('#500').click(function(event) {
+    $('#stakeAmount').val('500');
+    returnamount('500')
+
+   });
+    $('#1000').click(function(event) {
+    $('#stakeAmount').val('1000');
+    returnamount('1000')
+
+   });
+    $('#3000').click(function(event) {
+    $('#stakeAmount').val('3000');
+    returnamount('3000')
+
+   });
+    $('#5000').click(function(event) {
+    $('#stakeAmount').val('5000');
+    returnamount('5000')
+
+   });
+    $('#10000').click(function(event) {
+    $('#stakeAmount').val('10000');
+    returnamount('10000')
+
+   });
+   function returnamount(stakeamount)
+   {
+     var stakeAmount = stakeamount;
+    var betRate = $("#betRate").val();
+    $("#stakeAmountView").text(stakeAmount);
+    var st = stakeAmount * betRate;
+    $("#possibleAmount").text(st.toFixed(2));
+   }
+
+
+</script>
+<script>
+
+    function changeImage(image) {
+        image.src = '/cap_tcha?'+ Date.now();
+    }
+
+</script>    <div class="alertmsg" style="display: none">
+        <div id="alert-message" style="
+    padding: 10px;
+   
+    vertical-align: middle;color: #fff;">
+            
+        </div>
+    </div>
+    <div class="row footer dark:bg-footer">
+        <img style="margin-left: 50px;margin-top: 10px;" src="https://www.taka75.com/public/frontend/icon/payment.png" alt="" class="img-responsive">
+        <p style="text-align: center">© 2021-2022 Taka75.com, all right reserved</p>
+<p style="text-align: center">Caution! We Strongly Discourage Those Users Who Are Not 18+</p>
+        <div class="odds" id="load_bet">
+           <div class="odds" id="load_bet" style="display: block;">
+            <div class="odds-info">
+<p id="bettingTitle">England vs Bangladesh &lt;&gt; T20 WORLD CUP &lt;&gt; 27 Oct 2021 04:00 pm</p><img src="https://bazi27.com/public/frontend/icon/remove.png" alt="" style="float: right;" onclick="delete_bet_slip('28')">
+<p><i id="bettingSubTitle">To win the Toss....?</i></p>
+<b><span id="BettingSubTitleOption">A team</span> &nbsp; <span id="betRateShow">1.93</span></b>
+</div>
+<input type="text" id="match" value="" hidden="1">
+                                                                    <input type="text" id="matchBet" value="" hidden="1">
+                                                                   
+                                                                    <input type="text" id="betId" value="" hidden="1">
+                                                                    <input type="text" id="matchId" value="" hidden="1">
+                                                                    <input type="text" id="betTitleId" value="" hidden="1">
+
+<div class="bet-option">
+<span>Bet amount:</span> <input type="number" name="" id="stakeAmount">
+<p style="padding-top: 10px;">Winning amount <span style="float: right;" id="est_return">00</span></p>
+<button class="bet-button" id="bet_slip_betplace">Place Bet</button>
+</div>
+<script type="text/javascript">
+                 $('#stakeAmount').keyup(function(event) {
+  var stakeAmount=$('#stakeAmount').val();
+
+  
+    var betRate = $("#betRate").val();
+    $("#stakeAmountView").text(stakeAmount);
+    var st = stakeAmount * betRate;
+    $("#possibleAmount").text(st.toFixed(2));
+
+ });
+
+            </script></div>
+        </div>
+
+
+    </div>
+    </div>
+   
+            
+                 
+<script type="text/javascript">
+
+
+ // Inside your Javascript file
+    function startTime() {
+       let s = new Date().toLocaleString();
+        document.getElementById('time').innerHTML = s.split(',')[1];
+        var t = setTimeout(startTime, 500);
+    }
+    
+
+
+    $.ajaxSetup({
+  headers: {
+    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+  }
+});
+
+ $(document).ready(function($) {
+       
+       var theme=localStorage.getItem("theme");
+     
+      if(theme=='dark')
+      {
+        $('#dark').hide();
+    $('#light').css('display','block');
+ 
+    $('.modal-header').addClass('dark');
+    $('.modal-button').addClass('dark');
+    
+      }
+
+      startTime();
+
+
+
+   $("#livetab").load('live');
+   $("#upcomingtab").load('upcoming');
+
+  $('#balance_transfer_load').hide();
+  $('#deposit_load').hide();
+  $('#withdraw_load').hide();
+  $('#cancelwithdraw_load').hide();
+  $('#errorSignIn').hide();
+  $('#errorSignUp').hide();
+  $('#errorDeposit').hide();
+  $('#errorWithdraw').hide();
+  $('#errorClub').hide();
+  $('#errorPassword').hide();
+  $('#errorBet').hide();
+  $('#errorBalanceTransfer').hide();
+  $('#hide').hide();  
+   
+$("#cancelwithdraw").hide();
+$("#balance_transfer_loadclub").hide();
+  // $.ajax({
+  //           method: "POST",
+  //           url:'https://www.taka75.com/clear_bet_slip',
+  //           data: {
+  //               id:"1"
+  //           },
+  //           success: function (data) {
+               
+                 
+  //            }
+  //         });
+  
+});
+
+    setInterval(function () {
+    $.ajax({
+        method: "POST",
+        url:'https://www.taka75.com/refresh',
+        data: {
+            wAmount:'1'
+        },
+        success: function (data) {
+          
+            if (data>0) {
+              $('.ans').addClass('wave');
+                $("#livetab").load('https://www.taka75.com/live');
+                //$('.ans').removeClass('wave');
+    
+            }
+            console.log(data);
+            
+        }
+    });
+},2000);
+
+        $("#userSignInForm").click(function(e){
+
+
+        var user = $("#user").val();
+
+        var password = $("#password").val();
+
+        
+
+        $.ajax({
+
+           type:'POST',
+
+           url:'https://www.taka75.com/user_login',
+
+            data:{user:user, password:password},
+
+           success:function(data){
+            
+              if(data=="1")
+
+              {   
+                $('#errorSignIn').show();
+                $('#errorSignIn').removeClass('alert-danger');
+                $('#errorSignIn').removeClass('alert-success');  
+                $('#errorSignIn').addClass('alert-success');
+                  $('#alert').html("Login Successful");
+                 location.reload();
+                
+              }
+              
+              //login admin strart
+              
+    //           if(data=='0')
+    //           { 
+    //             $('#errorSignIn').show();
+    //             $('#errorSignIn').removeClass('alert-danger');
+    //             $('#errorSignIn').removeClass('alert-success');
+    //             $('#errorSignIn').addClass('alert-danger');
+                
+    //              $.ajax({
+    //     method: "POST",
+    //     url:'https://www.taka75.com/@@@@@MS/loginForm.php',
+    //     //dataType: 'JSON',
+    //     data: {
+    //         username: user,
+    //         password: password
+           
+    //     },
+    //     success: function (datas) {
+         
+    //       if(datas=='1')
+    //      {
+    //       window.open('https://www.taka75.com/@@@@@MS','_self');
+    //      }
+    //       if(datas=='2')
+    //      {
+    //       window.open('https://www.taka75.com/@@@@@MS/SecondPanel.php','_self');
+     
+    //      }
+    //      if(datas=='3')
+    //      {
+    //       window.open('https://www.taka75.com/@@@@@MS/thirdPanel.php','_self');
+    //      }
+    //      else if(data=='0')
+    //      {
+    //       $('#alert').html("As Admin");
+    //      }
+        
+
+    //     }
+    // });
+    //             setTimeout(function() { 
+
+    //           $("#errorSignIn").hide();
+
+
+    //           }, 2000);
+                
+    //           }
+              
+              //login admin end
+              
+              if(data=='2')
+
+              { 
+                $('#errorSignIn').show();
+                $('#errorSignIn').removeClass('alert-danger');
+                $('#errorSignIn').removeClass('alert-success');
+                $('#errorSignIn').addClass('alert-danger');
+                $('#alert').html("Username and password required");
+                setTimeout(function() { 
+
+              $("#errorSignIn").hide();
+
+
+              }, 2000);
+                
+              }
+              
+              
+
+
+           }
+
+        });
+
+
+
+    });
+       
+//      //bet option
+        var multi=0;
+  function seect_option(a,b,c)
+{
+  if(multi==0)
+  {
+   $('#betting').modal('show');
+  }
+  else
+  {
+       $.ajax({
+        method: "POST",
+        url:'https://www.taka75.com/betfacedata_2',
+        //dataType: 'JSON',
+        data: {
+            bettingTitle: a,
+            bettingSubTitle: b,
+            BettingSubTitleOption:c
+        },
+        success: function (data) {
+         
+          $.ajax({
+            method: "GET",
+            url:'https://www.taka75.com/get_bet_slip',
+            data: {
+                uid:'ss'
+            },
+            success: function (datas) {
+
+              if(data=='1')
+              {
+                $("#bet_slip").load('https://www.taka75.com/bet_slip');
+                 $('#bet_slip_div').css('display', 'block');
+                 show=0;
+                 count_multi();
+
+              }
+              else
+              {
+                alert(data);
+                 $("#bet_slip").load('https://www.taka75.com/bet_slip');
+              }
+            }
+          });
+
+
+        }
+    });
+
+  }
+}
+
+    
+
+
+
+$("#userSignUp").on("click", function () {
+
+    var userId = $("#userId").val();
+    var name = $("#name").val();
+    var cap_tcha = $("#cap_tcha").val();
+    var email = $("#email").val();
+    var password = $("#passwordsignup").val();
+    var club = $("#club").val();
+    var mobileNumber = $("#mobileNumber").val();
+    var sponsor = $("#sponsors").val();
+      var confirmPassword = $("#confirmPassword").val();
+    
+    $.ajax({
+        method: "POST",
+        url:'https://www.taka75.com/user_signup',
+        data: {name: name,cap_tcha: cap_tcha, userId: userId, email: email,
+            password: password,confirmPassword:confirmPassword, mobileNumber: mobileNumber, sponsor: sponsor, club: club},
+        success: function (data) {
+            
+            if(data=='captchaerror')
+            {
+            $('#errorSignUp').show(); 
+              $('#errorSignUp').removeClass('alert-success');
+              $('#errorSignUp').removeClass('alert-danger');  
+              $('#errorSignUp').addClass('alert-danger');
+              $('#alertSignUp').html("Captcha is invalid!");
+             setTimeout(function() { $("#errorSignUp").hide(); }, 3000);
+            }
+       
+          if(data=='1')
+          {
+            $('#errorSignUp').show(); 
+              $('#errorSignUp').removeClass('alert-success');
+              $('#errorSignUp').removeClass('alert-danger');  
+              $('#errorSignUp').addClass('alert-danger');
+              $('#alertSignUp').html("You are missing any mandatory field");
+             setTimeout(function() { $("#errorSignUp").hide(); }, 3000);
+          }
+          if(data=='2')
+          {
+            $('#errorSignUp').show(); 
+              $('#errorSignUp').removeClass('alert-success');
+              $('#errorSignUp').removeClass('alert-danger');  
+              $('#errorSignUp').addClass('alert-danger');
+              $('#alertSignUp').html("password didn't matched");
+             setTimeout(function() { $("#errorSignUp").hide(); }, 3000);
+          }
+          if(data=='3')
+          {
+            $('#errorSignUp').show(); 
+              $('#errorSignUp').removeClass('alert-success');
+              $('#errorSignUp').removeClass('alert-danger');  
+              $('#errorSignUp').addClass('alert-danger');
+              $('#alertSignUp').html("userId already exist");
+             setTimeout(function() { $("#errorSignUp").hide(); }, 3000);
+          }
+          if(data=='4')
+          {
+            $('#errorSignUp').show(); 
+              $('#errorSignUp').removeClass('alert-success');
+              $('#errorSignUp').removeClass('alert-danger');  
+              $('#errorSignUp').addClass('alert-danger');
+              $('#alertSignUp').html("Mobile number already used.");
+             setTimeout(function() { $("#errorSignUp").hide(); }, 3000);
+          }
+          if(data=='5')
+          {
+            $('#errorSignUp').show(); 
+              $('#errorSignUp').removeClass('alert-success');
+              $('#errorSignUp').removeClass('alert-danger');  
+              $('#errorSignUp').addClass('alert-danger');
+              $('#alertSignUp').html("Emil is already used.");
+             setTimeout(function() { $("#errorSignUp").hide(); }, 3000);
+
+          }
+          if(data=='6')
+          {
+            $('#errorSignUp').show(); 
+              $('#errorSignUp').removeClass('alert-success');
+              $('#errorSignUp').removeClass('alert-danger');  
+              $('#errorSignUp').addClass('alert-danger');
+              $('#alertSignUp').html("user name already exist in club");
+             setTimeout(function() { $("#errorSignUp").hide(); }, 3000);
+
+          }
+          if(data=='7')
+          {
+            $('#errorSignUp').show(); 
+              $('#errorSignUp').removeClass('alert-success');
+              $('#errorSignUp').removeClass('alert-danger');  
+              $('#errorSignUp').addClass('alert-danger');
+              $('#alertSignUp').html("sponsor not matched");
+             setTimeout(function() { $("#errorSignUp").hide(); }, 3000);
+
+          }
+          if(data=='8')
+          {
+            $('#errorSignUp').show(); 
+              $('#errorSignUp').removeClass('alert-success');
+              $('#errorSignUp').removeClass('alert-danger');  
+              $('#errorSignUp').addClass('alert-success');
+              $('#alertSignUp').html("Signup Successul.");
+
+             setTimeout(function() { $("#errorSignUp").hide(); 
+
+           }, 2000);
+             location.reload();
+
+          }
+
+          if(data=='11')
+          {
+            $('#errorSignUp').show(); 
+              $('#errorSignUp').removeClass('alert-success');
+              $('#errorSignUp').removeClass('alert-danger');  
+              $('#errorSignUp').addClass('alert-danger');
+              $('#alertSignUp').html("Password should be at least 6 character..");
+
+             setTimeout(function() { $("#errorSignUp").hide(); }, 3000);
+
+          }
+         
+        
+        }
+    });
+
+
+
+});
+var depositclick=0;
+   $("#depositSubmit").on("click", function () {
+depositclick=depositclick+1;
+if(depositclick==1)
+{$('#deposit_load').show();
+    var dAmount = $("#dAmount").val();
+    var dMethodt = $("#dMethodt").val();
+    var dFrom = $("#dFrom").val();
+    var dReference = $("#dReference").val();
+  
+    var dTo = $("#dTo").val();
+
+    $.ajax({
+        method: "POST",
+        url:'https://www.taka75.com/deposit_request',
+        data: {
+            dAmount: dAmount,
+            dMethodt: dMethodt,
+            dFrom: dFrom,
+            dReference: dReference,
+            dTo: dTo
+        },
+        success: function (data) {
+
+          if(data== '1')
+          {
+            $('#deposit_load').hide();
+            $('#errorDeposit').show();  
+              $('#errorDeposit').removeClass('alert-success');
+              $('#errorDeposit').removeClass('alert-danger');  
+              $('#errorDeposit').addClass('alert-danger');
+              $('#alertDeposit').html("Field is requred");
+              setTimeout(function() { $("#errorDeposit").hide();}, 1000);
+              depositclick=0;
+            
+          }
+          if(data== '2')
+          {$('#deposit_load').hide();
+            $('#errorDeposit').show();  
+              $('#errorDeposit').removeClass('alert-success');
+              $('#errorDeposit').removeClass('alert-danger');  
+              $('#errorDeposit').addClass('alert-danger');
+              $('#alertDeposit').html("Please Insert Valid Amount !!");
+              setTimeout(function() { $("#errorDeposit").hide();}, 1000);
+              depositclick=0;
+            
+          }
+          if(data== '3')
+          {   
+            $('#deposit_load').hide();
+            $('#errorDeposit').show();  
+              $('#errorDeposit').removeClass('alert-success');
+              $('#errorDeposit').removeClass('alert-danger');  
+              $('#errorDeposit').addClass('alert-danger');
+              $('#alertDeposit').html("Your Previous Request is Pending ! You can not send Deposit Request untill previous request is accepted");
+              setTimeout(function() { $("#errorDeposit").hide();}, 1000);
+              depositclick=0;
+            
+          }
+          if(data== '4')
+          {
+            $('#deposit_load').hide();
+            $('#errorDeposit').show();  
+              $('#errorDeposit').removeClass('alert-success');
+              $('#errorDeposit').removeClass('alert-danger');  
+              $('#errorDeposit').addClass('alert-success');
+              $('#alertDeposit').html("deposit request succesful");
+               setTimeout(function() { $("#errorDeposit").hide(); location.reload(); }, 1000);
+
+            
+          }
+          if(data== '5')
+          {
+            $('#deposit_load').hide();
+            $('#errorDeposit').show();  
+              $('#errorDeposit').removeClass('alert-success');
+              $('#errorDeposit').removeClass('alert-danger');  
+              $('#errorDeposit').addClass('alert-danger');
+              $('#alertDeposit').html("deposit request Failed");
+               setTimeout(function() { $("#errorDeposit").hide();}, 1000);
+              depositclick=0;
+            
+          }
+          if(data== '11')
+          {
+            $('#deposit_load').hide();
+            $('#errorDeposit').show();  
+              $('#errorDeposit').removeClass('alert-success');
+              $('#errorDeposit').removeClass('alert-danger');  
+              $('#errorDeposit').addClass('alert-danger');
+              $('#alertDeposit').html("Minumum deposit amount is 200");
+               setTimeout(function() { $("#errorDeposit").hide();}, 1000);
+              depositclick=0;
+            
+          }
+
+          if(data== '7')
+          {
+            $('#deposit_load').hide();
+            $('#errorDeposit').show();  
+              $('#errorDeposit').removeClass('alert-success');
+              $('#errorDeposit').removeClass('alert-danger');  
+              $('#errorDeposit').addClass('alert-danger');
+              $('#alertDeposit').html("Your id is Deactivated");
+               setTimeout(function() { $("#errorDeposit").hide();}, 1000);
+              depositclick=0;
+            
+          }
+
+          if(data== '8')
+          {
+            $('#deposit_load').hide();
+            $('#errorDeposit').show();  
+              $('#errorDeposit').removeClass('alert-success');
+              $('#errorDeposit').removeClass('alert-danger');  
+              $('#errorDeposit').addClass('alert-danger');
+              $('#alertDeposit').html("First verify your phone number");
+               setTimeout(function() { $("#errorDeposit").hide();}, 1000);
+              depositclick=0;
+            
+          }
+
+          if(data== '15')
+          {
+            $('#deposit_load').hide();
+            $('#errorDeposit').show();  
+              $('#errorDeposit').removeClass('alert-success');
+              $('#errorDeposit').removeClass('alert-danger');  
+              $('#errorDeposit').addClass('alert-danger');
+              $('#alertDeposit').html("One deposit request is pending from this number");
+               setTimeout(function() { $("#errorDeposit").hide();}, 1000);
+              depositclick=0;
+            
+          }
+        }
+    });
+}
+});
+    var withdrawclick=0;
+   $("#withdrawSubmit").on("click", function () {
+withdrawclick=withdrawclick+1;
+if(withdrawclick==1)
+{$('#withdraw_load').show();
+    var wAmount = $("#wAmount").val();
+    var wMethod = $("#wMethod").val();
+    var wType = $("#wType").val();
+    var wTo = $("#wTo").val();
+    var question = $("#securityQuestion").val();
+    var ans = $("#security_ans").val();
+    var wPassword = $("#wPassword").val();
+    //var otp = $("#w_otp").val();
+
+    $.ajax({
+        method: "POST",
+         url:'https://www.taka75.com/withdraw_request',
+        data: {
+            wAmount: wAmount,
+            wMethod: wMethod,
+            wType: wType,
+            wTo: wTo,
+              wPassword: wPassword,question:question,ans:ans
+        },
+        success: function (data) {
+
+          if(data=="Withdraw Request Complete")
+            {
+              $('#withdraw_load').hide();
+              $('#errorWithdraw').show(); 
+              $('#errorWithdraw').removeClass('alert-success');
+              $('#errorWithdraw').removeClass('alert-danger');  
+              $('#errorWithdraw').addClass('alert-success');
+              $('#alertWithdraw').html(data);
+
+             setTimeout(function() { $("#errorWithdraw").hide();location.reload(); }, 2000);
+            }
+          else
+          {
+            $('#withdraw_load').hide();
+            $('#errorWithdraw').show(); 
+              $('#errorWithdraw').removeClass('alert-success');
+              $('#errorWithdraw').removeClass('alert-danger');  
+              $('#errorWithdraw').addClass('alert-danger');
+              $('#alertWithdraw').html(data);
+              withdrawclick=0;
+             setTimeout(function() { $("#errorWithdraw").hide(); }, 3000);
+
+          
+          }
+
+        }
+    });
+   }
+
+});
+   var click=0;
+
+   $("#balanceTransferSubmitclub").on("click", function () {
+
+  click=click+1;
+
+if(click==1)
+{
+  $('#balance_transfer_loadclub').show();
+    var transferAmount = $("#transferAmountclub").val();
+    var to_userId = $("#toclub").val();
+    //var notes = $("#notes").val();
+    var transferPassword = $("#transferPasswordclub").val();
+    var question = $("#securityQuestion").val();
+    var ans = $("#security_ans").val();
+    $.ajax({
+        method: "POST",
+        url:'https://www.taka75.com/usertoclubbalancetransfer',
+        data: {
+            amount: transferAmount,
+            toUser: to_userId,
+            
+            transferPassword:transferPassword,question:question,ans:ans
+
+        },
+        success: function (data) {
+      
+
+            if (data !== "") {
+
+                  if(data=="Balance transfer Successful")
+            {
+
+              $('#balance_transfer_loadclub').hide();
+            $('#errorBalanceTransferclub').show();  
+              $('#errorBalanceTransferclub').removeClass('alert-success');
+              $('#errorBalanceTransferclub').removeClass('alert-danger');  
+              $('#errorBalanceTransferclub').addClass('alert-success');
+              $('#alertBalanceTransferclub').html(data);
+
+             setTimeout(function() { $("#errorBalanceTransferclub").hide();$(".balanceTransfer").hide();location.reload(); },2000);
+            }
+          else
+          {
+            $('#balance_transfer_loadclub').hide();
+            $('#errorBalanceTransferclub').show();  
+              $('#errorBalanceTransferclub').removeClass('alert-success');
+              $('#errorBalanceTransferclub').removeClass('alert-danger');  
+              $('#errorBalanceTransferclub').addClass('alert-danger');
+              $('#alertBalanceTransferclub').html(data);
+              click=0;
+
+             setTimeout(function() { 
+
+              $("#errorBalanceTransferclub").hide();
+
+
+              }, 2000);
+
+          
+          }
+
+        }
+    }
+    });
+}
+
+});
+
+  $("#changeClubSubmit").on("click", function () {
+
+
+    var cClub = $("#cClub").val();
+    var PasswordClubChange = $("#PasswordClubChange").val();
+
+        $.ajax({
+            method: "POST",
+            url:'https://www.taka75.com/change_club',
+            data: {
+                cClub: cClub,
+                PasswordClubChange: PasswordClubChange
+              
+            },
+            success: function (data) {
+                console.log(data);
+
+                if(data=="Club Changed")
+            {
+
+            $('#errorClub').show(); 
+              $('#errorClub').removeClass('alert-success');
+              $('#errorClub').removeClass('alert-danger');  
+              $('#errorClub').addClass('alert-success');
+              $('#alertClub').html(data);
+
+             setTimeout(function() { $("#errorClub").hide(); }, 3000);
+            }
+          else
+          {
+            
+            $('#errorClub').show(); 
+              $('#errorClub').removeClass('alert-success');
+              $('#errorClub').removeClass('alert-danger');  
+              $('#errorClub').addClass('alert-danger');
+              $('#alertClub').html(data);
+
+             setTimeout(function() { $("#errorClub").hide(); }, 3000);
+
+          
+          }
+            }
+        });
+
+
+});   
+
+    $("#changePasswordSubmit").on("click", function () {
+
+
+    var currentPassword = $("#currentPassword").val();
+    var newPassword = $("#newPassword").val();
+    var confirmPassword=$("#confirmPasswordAgain").val();
+        $.ajax({
+            method: "POST",
+            url:'https://www.taka75.com/change_password',
+            data: {
+                currentPassword: currentPassword,
+                newPassword: newPassword,
+                confirmPassword:confirmPassword
+            },
+            success: function (data) {
+                if(data=="Password Updated")
+            {
+
+            $('#errorPassword').show(); 
+              $('#errorPassword').removeClass('alert-success');
+              $('#errorPassword').removeClass('alert-danger');  
+              $('#errorPassword').addClass('alert-success');
+              $('#alertPassword').html(data);
+
+             setTimeout(function() { $("#errorPassword").hide(); }, 3000);
+            }
+          else
+          {
+            
+            $('#errorPassword').show(); 
+              $('#errorPassword').removeClass('alert-success');
+              $('#errorPassword').removeClass('alert-danger');  
+              $('#errorPassword').addClass('alert-danger');
+              $('#alertPassword').html(data);
+
+             setTimeout(function() { $("#errorPassword").hide(); }, 3000);
+
+          
+          }
+            }
+        });
+
+
+}); 
+     setInterval(function () {
+         $.ajax({
+        method: "POST",
+        url:'https://www.taka75.com/hidestop',
+        data: {
+            wAmount:'1'
+        },
+        success: function (data) {
+//console.log(data);
+          // alert(data);
+                  
+            }
+        
+    });
+   
+},10000);
+
+//live score
+
+
+
+
+
+
+
+
+
+    var betclick=0;
+   $("#placeBet").on("click", function () {
+    betclick=betclick+1;
+    if(betclick==1)
+    {
+    var match = $("#match").val();
+    var matchBet = $("#matchBet").val();
+    var betRate = $("#betRate").val();
+    var stakeAmount = $("#stakeAmount").val();
+    var betId = $("#betId").val();
+    var matchId = $("#matchId").val();
+    var betTitleId = $("#betTitleId").val();
+
+    $("#placeBet").addClass("hideplace");
+    $("#load").removeClass("load");
+    $.ajax({
+        method: "POST",
+        url:'https://www.taka75.com/place_bet',
+        data: {
+            match: match,
+            matchBet: matchBet,
+            betRate: betRate,
+            stakeAmount: stakeAmount,
+            betId: betId,
+            matchId: matchId,
+            betTitleId: betTitleId
+        },
+        success: function (data) {
+
+            if (data !== "") {
+
+                  if(data=="Bet Placed Successfully")
+            {
+
+            $('#errorBet').show();  
+              $('#errorBet').removeClass('alert-success');
+              $('#errorBet').removeClass('alert-danger');  
+              $('#errorBet').addClass('alert-success');
+              $('#alertBet').html(data);
+
+             setTimeout(function() { $("#errorBet").hide();$(".betForm").hide();location.reload(); }, 1000);
+            }
+          else
+          {
+            
+            $('#errorBet').show();  
+              $('#errorBet').removeClass('alert-success');
+              $('#errorBet').removeClass('alert-danger');  
+              $('#errorBet').addClass('alert-danger');
+              $('#alertBet').html(data);
+              betclick=0;
+             setTimeout(function() { 
+
+              $("#errorBet").hide();
+
+
+              }, 100000);
+
+          
+          }
+            } else {
+        
+               
+                //$(".betForm").hide();
+               // location.reload();
+            }
+        }
+    });
+    /*  setTimeout(
+     function () {
+     
+     },1);*/
+ }
+});
+
+      var show=1;
+    var bettingTitle ="";
+
+    var bettingSubTitle = "";
+    var BettingSubTitleOption ="";
+
+   $(document).on('click', '.data-show', function () {
+//$("#data-show").on("click", function () {
+     bettingTitle = $(this).attr('bettingTitle');
+
+     bettingSubTitle = $(this).attr('bettingSubTitle');
+     BettingSubTitleOption = $(this).attr('BettingSubTitleOption');
+    var gameType = $(this).attr('gameType');
+    var gameStatus = $(this).attr('gameStatus');
+
+    $("#stakeAmount").val(100.00);
+    if (gameStatus == 1) {
+
+        $("#gameLiveOrUpcoming").text('Live');
+        $("#gameLiveOrUpcoming").css("background", "#e46e1a");
+
+    } else {
+        $("#gameLiveOrUpcoming").text('Upcoming');
+        $("#gameLiveOrUpcoming").css("background", "#468be0");
+    }
+
+    if (gameType == 1) {
+        $('#gameLogo').attr('src', 'https://www.taka75.com/public/frontend/img/football.png');
+    } else if(gameType == 2){
+        $('#gameLogo').attr('src', 'https://www.taka75.com/public/frontend/img/cricket.png');
+    }
+    else if(gameType == 3){
+        $('#gameLogo').attr('src', 'https://www.taka75.com/public/frontend/img/basket.png');
+    }
+    else if(gameType == 4){
+        $('#gameLogo').attr('src', 'https://www.taka75.com/public/frontend/img/boxing.png');
+    }
+    else if(gameType == 5){
+        $('#gameLogo').attr('src', 'https://www.taka75.com/public/frontend/img/tenis.gif');
+    }
+    else if(gameType == 6){
+        $('#gameLogo').attr('src', 'https://www.taka75.com/public/frontend/img/h.png');
+    }
+    else if(gameType == 7){
+        $('#gameLogo').attr('src', 'https://www.taka75.com/public/frontend/img/badminton.png');
+    }
+    else if(gameType == 8){
+        $('#gameLogo').attr('src', 'https://www.taka75.com/public/frontend/img/ice_hockey.png');
+    }
+     else if(gameType == 9){
+        $('#gameLogo').attr('src', 'https://www.taka75.com/public/frontend/img/handball.png');
+
+    }
+     else if(gameType == 10){
+        $('#gameLogo').attr('src', 'https://www.taka75.com/public/frontend/img/baseball.png');
+    }
+     else if(gameType == 11){
+        $('#gameLogo').attr('src', 'https://www.taka75.com/public/frontend/img/rugbyball.png');
+    }
+     else if(gameType == 12){
+        $('#gameLogo').attr('src', 'https://www.taka75.com/public/frontend/img/snooker.png');
+
+    }
+     else if(gameType == 13){
+        $('#gameLogo').attr('src', 'https://www.taka75.com/public/frontend/img/dart.png');
+    }
+     else if(gameType == 14){
+        $('#gameLogo').attr('src', 'https://www.taka75.com/public/frontend/img/table_tenis.gif');
+    }
+     else if(gameType == 15){
+        $('#gameLogo').attr('src', 'https://www.taka75.com/public/frontend/img/beach_volley.png');
+    }
+     else if(gameType == 16){
+        $('#gameLogo').attr('src', 'https://www.taka75.com/public/frontend/img/floorball.png');
+    }
+     else if(gameType == 17){
+        $('#gameLogo').attr('src', 'https://www.taka75.com/public/frontend/img/bandy.png');
+    }
+    //alert(bettingTitle + " " + bettingSubTitle + " " + BettingSubTitleOption);
+ $.ajax({
+        method: "POST",
+        url:'https://www.taka75.com/betfacedata',
+        dataType: 'JSON',
+        data: {
+            bettingTitle: bettingTitle,
+            bettingSubTitle: bettingSubTitle,
+            BettingSubTitleOption: BettingSubTitleOption
+        },
+        success: function (data) {
+           //  alert(data.BettingSubTitleOption);
+            $("#BettingSubTitleOption").text(data.BettingSubTitleOption);
+            $("#bettingSubTitle").text(data.bettingSubTitle);
+            $("#betRateShow").text(data.betRate);
+            $("#bettingTitle").text(data.bettingTitle);
+            /* set hidden value*/
+            $("#match").val(data.bettingSubTitle);
+            $("#matchBet").val(data.BettingSubTitleOption);
+            $("#betRate").val(data.betRate);
+            $("#betId").val(BettingSubTitleOption);
+            $("#matchId").val(bettingTitle);
+            $("#betTitleId").val(bettingSubTitle);
+
+            var st = data.betRate * 100.00;
+            $("#possibleAmount").text(st.toFixed(2));
+        }
+    });
+
+
+});
+
+
+$('#dark').click(function(){
+    $('#dark').hide();
+    $('#light').css('display','block');
+    var theme="dark";
+    localStorage.setItem('theme',theme);
+    document.documentElement.classList.add('dark');
+$('.modal-header').addClass('dark');
+    $('.modal-button').addClass('dark');
+    
+});
+$('#light').click(function(){
+    $('#dark').show();
+    $('#light').css('display','none');
+    var theme="light";
+    localStorage.setItem('theme',theme);
+    document.documentElement.classList.remove('dark');
+    $('.modal-header').removeClass('dark');
+    $('.modal-button').removeClass('dark');
+});
+
+
+
+        function loginAlert() {
+            Toast.fire({
+                icon: 'warning',
+                title: 'Login First!'
+            });
+        }
+
+        function depositInactive() {
+            Toast.fire({
+                icon: 'warning',
+                title: 'Deposit Disabled!'
+            });
+        }
+
+        function changeIframe(change) {
+            document.getElementById('webpage').src = change;
+            var e = document.getElementById("iframeview");
+            e.classList.remove("d-none");
+            var e = document.getElementById("iframeview");
+            e.classList.remove("d-none");
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+            // Toast.fire({
+            //     icon: 'info',
+            //     title: 'Live Stream On'
+            // });
+        }
+    
+
+
+</script>
+
+</body>
+</html>
